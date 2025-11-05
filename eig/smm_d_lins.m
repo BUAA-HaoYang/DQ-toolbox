@@ -22,9 +22,9 @@ function [eigVal, eigVec] = smm_d_lins(A,type)
 
 % Reference:
 %
-% Liqun Qi and Cui, Chunfeng, 'Eigenvalues of dual Hermitian matrices with 
-% application in formation control', SIAM Journal on Matrix Analysis and 
-% Applications 45 (4) (2024) 2135-2154.
+% Qi, Liqun, and Chunfeng Cui. "Eigenvalues of dual Hermitian matrices with
+% application in formation control." SIAM Journal on Matrix Analysis and 
+% Applications 45.4 (2024): 2135-2154.
 
     if nargin <= 1
         type = 'dc';

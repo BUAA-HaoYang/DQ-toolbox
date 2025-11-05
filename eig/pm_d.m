@@ -25,9 +25,9 @@ function [u,lambda,k,res] = pm_d(A, u, maxiter, rtol)
 
 % Reference:
 %
-% Cui, Chunfeng, and Liqun Qi, 'A power method for computing the dominant 
-% eigenvalue of a dual quaternion Hermitian matrix', Journal of Scientific 
-% Computing 100.1 (2024):21.
+% Cui, Chunfeng, and Liqun Qi. "A power method for computing the dominant 
+% eigenvalue of a dual quaternion Hermitian matrix." Journal of Scientific
+% Computing 100.1 (2024): 21.
     if nargin < 2, u = []; end
     if nargin < 3, maxiter = 1000; end
     if nargin < 4, rtol = 1e-10; end
