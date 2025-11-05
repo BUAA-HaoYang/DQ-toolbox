@@ -33,6 +33,13 @@ function C = adjoint_d(A,type)
 
 % Copyright © 2025 Chunfeng Cui,Hao Yang and Tao Sang.
 
+% Reference:
+%
+% Chen Y, Zhang L. Dual Complex Adjoint Matrix and Applications to Hand-Eye
+% Calibration and Multi-Agent Formation Control. J Sci Comput 104, 4
+% (2025). https://doi.org/10.1007/s10915-025-02921-1
+
+
 if nargin < 2
     type='dc';
 end
