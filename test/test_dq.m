@@ -56,6 +56,10 @@ time_smm = toc(t_start);     % Record execution time for SMM
 error = verifyeigenpair_d(A,eigVal,eigVec);% Computes the error of eigenpairs
 
 % 3. Using the dual complex adjoint matrix based power method
+% Reference:
+% Chen, Yongjun, and Liping Zhang. "Improved power methods for computing 
+% eigenvalues of dual quaternion Hermitian matrices." arXiv preprint 
+% arXiv:2505.15584 (2025).
 A_adjoint = adjoint_d(A, 'dc');  
 v_adjoint = adjoint_d(v, 'dc');  
 v_adjoint = v_adjoint(:, 1);     
