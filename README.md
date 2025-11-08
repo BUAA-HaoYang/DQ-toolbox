@@ -1,5 +1,6 @@
 # DQ toolbox for Matlab 
-DQ Toolbox is a MATLAB-based software package designed for efficient manipulation of dual complex numbers and dual quaternions—mathematical objects critical to fields like robotics, computer graphics, and mechanical engineering. 
+DQ Toolbox is a MATLAB-based software package designed for efficient manipulation of dual complex numbers and dual quaternions—mathematical objects critical to fields like robotics, computer graphics, and mechanical engineering.  It is available for download at https://github.com/BUAA-HaoYang/DQ-toolbox.
+If your work involves dual quaternions, the quaternion toolbox `qtfm` requires a separate download. It can be accessed at https://sourceforge.net/projects/qtfm/.
 
 ## Core Capabilities
 The toolbox provides comprehensive support for two primary data types:  
