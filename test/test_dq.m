@@ -1,5 +1,9 @@
 clear
 clc
+% This script demonstrates the core functionalities of the DQ Toolbox 
+% related to dual quaternions. If your work involves dual quaternions, the 
+% quaternion toolbox qtfm requires a separate download. It can be accessed 
+% at https://sourceforge.net/projects/qtfm/.
 %% Constructions and operations of dual quaternion matrices
 as = quaternion([1.05, 0; 0, 1], zeros(2,2), ones(2,2), zeros(2,2));
 ad = as;

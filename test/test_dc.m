@@ -1,7 +1,9 @@
 clear
 clc
+% This script demonstrates the core functionalities of the DQ Toolbox 
+% related to dual complex matrices.
 %% Constructions and operations of dual complex matrices
-as = [1+i, 2; 1, 1];  
+as = [1+1i, 2; 1, 1];  
 ad = [1, 2; 1, 1];    
 
 % Construct a dual complex matrix 'a' using dc() constructor, combining 
